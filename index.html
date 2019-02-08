@@ -10,7 +10,10 @@
     <meta charset="UTF-8">
     <title>Kendall Fishing</title>
 </head>
-<body style="background-color: white">
+<body>
+<div id="background">
+    <img src="Misc/Lakeside.jpg" class="stretch" alt=""/>
+</div>
 <nav class="w3-white w3-center" style="display: block;">
     <div style="display: inline-block">
         <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
@@ -26,7 +29,7 @@
 <div class="w3-center" style="overflow: hidden; max-height: 60vh">
     <img src="matt/11905408_1035524269813795_8023113296330516843_o.jpg" style="width: 100%"/>
 </div>
-<table width="80%" align="center">
+<table width="80%" align="center" style="background-color: white">
     <tr>
         <td id="introduction" class="standardSection">
             <h1>Fishing Lessons for beginners</h1>
@@ -62,7 +65,8 @@
             <table id="Steven">
                 <tr>
                     <th>
-                        <img style="float: left" src="Steve/17505222_643541502510184_7573081705078741217_o.jpg"
+                        <img class="w3-card-4"
+                                style="float: left" src="Steve/17505222_643541502510184_7573081705078741217_o.jpg"
                              height="215.5"
                              width="360" hspace="20"/>
                     </th>
@@ -115,12 +119,12 @@
                     <th>
                         <table>
                             <tr>
-                                <td style="text-align: right">
+                                <td style="text-align: right; padding-right: 25px">
                                     <h2>Matt</h2>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="text-align: right">
+                                <td style="text-align: right; padding-right: 25px">
                                     <p>Mauris dictum feugiat orci eget pharetra. Nullam id consequat ante. Sed
                                         ullamcorper leo nibh, ac condimentum
                                         enim consequat et. Curabitur at diam vehicula eros congue congue. Morbi interdum
@@ -142,7 +146,7 @@
                         </table>
                     </th>
                     <th>
-                        <img style="float: right" src="matt/36557657_2060459183986960_1379819700527038464_n.jpg"
+                        <img class="w3-card-4" style="float: right" src="matt/36557657_2060459183986960_1379819700527038464_n.jpg"
                              height="349.5"
                              width="360"/>
                     </th>
@@ -155,7 +159,7 @@
     <tr>
         <td id="customerGallery" class="w3-center w3-content" style="display: block; width: 60%; margin: auto">
             <h1>Our customers</h1>
-            <div class="w3-content w3-display-container" >
+            <div class="w3-content w3-display-container">
                 <img class="mySlides w3-center" src="customers/39622_10150253912510179_7779821_n.jpg">
                 <img class="mySlides" src="customers/10985959_1028716900494532_4146154038812617152_n.jpg">
                 <img class="mySlides w3-center" src="customers/14202643_546405118890490_8661724977728905660_n.jpg">
@@ -194,13 +198,25 @@
             </div>-->
         </td>
     </tr>
+    <script>
+        showDivs(1);
+    </script>
+    <tr class="customHr">
+        <td></td>
+    </tr>
+    <tr>
+        <td class ="footer-left">
 
+        </td>
+        <td class="footer-right">
+            testing
+        </td>
+    </tr>
 </table>
 
 
-<script>
-    showDivs(1);
-</script>
+
+
 
 </body>
 </html>
