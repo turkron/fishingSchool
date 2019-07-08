@@ -49,8 +49,10 @@ p{
     height:100%;
 }
 
+.footer-left {
+    margin-top: 50px;
+}
+
 .footer-right {
     float: right;
-    width: 47%;
-    margin: 20px 2% 0 0;
 }
